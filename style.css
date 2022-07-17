@@ -1,0 +1,16 @@
+/* #addBtn {
+    margin: 10px;
+} */
+
+body::before{
+ 
+    background-color: #f7ed7e;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 103.5%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
